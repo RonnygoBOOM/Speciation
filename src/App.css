@@ -12,19 +12,40 @@ h1 {
 .App {
   text-align: center;
   background-color: black;
-  color: #33BACE
+  color: #33BACE;
 }
 
-.section {
+body {
+  margin: 0;
+  font-family: "Supermercado one", cursive;
+  color: #33BACE;
+}
+section {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 400px;
+  padding: 100px;
+}
+
+.blue {
+  background: #151558;
+}
+
+.red {
+  background: rgb(5, 22, 27);
+}
+.purple {
+  background: rgb(30, 11, 65);
+}
+.indigo {
+  background: rgb(38, 16, 117);
 }
 
 footer {
   background-color: black;
-  color: #33BACE
+  color: #33BACE;
 }
 
 .App-logo {
@@ -61,3 +82,40 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(120% + 1.3px);
+  height: 137px;
+}
+
+.wave2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 120px;
+}
+
+.wave2 .shape-fill {
+  fill: #151558;
+}
+
