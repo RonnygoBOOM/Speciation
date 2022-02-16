@@ -29,15 +29,15 @@ class ParallaxTextScroll extends Component {
             <div style={scrollText}>
                 <section className="scrollTextSection">
                     <div className="scrollDiv">
-                        <h2 style={scrollText}><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
-                        <h2><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span><span>Speciation</span></h2>
+                        <h2 className="i1"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i2"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i3"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i4"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i5"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i6"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i7"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i8"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i9"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
                     </div>
                 </section>
             </div>

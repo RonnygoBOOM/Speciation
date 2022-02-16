@@ -9,7 +9,7 @@ h1 {
   font-family: "Supermercado one", cursive;
 }
 
-.about-text, h3, h2, p {
+.varela {
   font-family: "Varela round", cursive;
 }
 
@@ -156,8 +156,19 @@ footer {
   line-height: 1em;
   white-space: nowrap;
   text-shadow: calc(var(--x)) 100px 0 rgba(255, 255, 255, 0.1);
-  transform: translateX(calc(0% - var(--x) * 2));
+  transform: translateX(calc(0% - var(--x) * var(--i, 2)));
 }
+
+.i1 {transform: translateX(calc(0% - var(--x) * 0.5)) !important;}
+.i2 {transform: translateX(calc(0% - var(--x) * .75)) !important;}
+.i3 {transform: translateX(calc(0% - var(--x) * 1.5)) !important;}
+.i4 {transform: translateX(calc(0% - var(--x) * 2.0)) !important;}
+.i5 {transform: translateX(calc(0% - var(--x) * .9)) !important;}
+.i6 {transform: translateX(calc(0% - var(--x) * 1.3)) !important;}
+.i7 {transform: translateX(calc(0% - var(--x) * 1.8)) !important;}
+.i8 {transform: translateX(calc(0% - var(--x) * 0.4)) !important;}
+.i9 {transform: translateX(calc(0% - var(--x) * .9)) !important;}
+
 
 .scrollDiv span {
   color: #0f0;

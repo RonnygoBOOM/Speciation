@@ -12,6 +12,7 @@ class Home extends Component {
         return (
             <div>
                 <h1>Speciation</h1>
+                <div className="varela">
                 <section className="container">
                     <h2>Nice Curves</h2>
                 <div class="row align-items-center">
@@ -75,7 +76,7 @@ class Home extends Component {
                     <br></br>Simultaneously, and at an exponentially increasing time interval, the original gen 1 creature will metamorphose to a later stage in its life. 
                     </p>
                 </section>
-                
+                </div>
             </div>
         );
     }
