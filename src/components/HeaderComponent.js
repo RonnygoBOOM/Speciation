@@ -6,7 +6,16 @@ class Header extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = {
+            isNavOpen: false,
+        };
+        this.toggleNav = this.toggleNav.bind(this);
+    }
+
+    toggleNav() {
+        this.setState({
+            isNavOpen: !this.state.isNavOpen
+        });
     }
 
     render() {
@@ -26,6 +35,11 @@ class Header extends Component {
                                 <NavItem>
                                     <NavLink className="nav-link" to="/about">
                                         <i className="fa fa-info fa-lg" /> About
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/parallaxTextScroll">
+                                        <i className="fa fa-angle-right fa-lg" /> Scroll Animation
                                     </NavLink>
                                 </NavItem>
                             </Nav>
