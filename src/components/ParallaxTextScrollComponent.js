@@ -24,23 +24,24 @@ class ParallaxTextScroll extends Component {
     fontFamily: 'Poppins',
     }
 
-    
         return (
+            <>
             <div style={scrollText}>
                 <section className="scrollTextSection">
                     <div className="scrollDiv">
-                        <h2 className="i1"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i2"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i3"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i4"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i5"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i6"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i7"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i8"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
-                        <h2 className="i9"><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span><span>Text Example</span></h2>
+                        <h2 className="i1"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i2"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i3"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i4"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i5"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i6"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i7"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i8"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
+                        <h2 className="i9"><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span><span>Cardano Crocs Club</span></h2>
                     </div>
                 </section>
             </div>
+            </>
         )
     }
 };

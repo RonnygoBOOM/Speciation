@@ -42,6 +42,11 @@ class Header extends Component {
                                         <i className="fa fa-angle-right fa-lg" /> Scroll Animation
                                     </NavLink>
                                 </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/responsiveCardHover">
+                                        <i className="fa fa-square fa-lg" /> Card Hover
+                                    </NavLink>
+                                </NavItem>
                             </Nav>
                         </Collapse>
                     </div>
